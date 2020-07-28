@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import OwO from '../../assets/img/OwO.png';
 import './menu.css'
 import Button from '../Button/Button'
@@ -7,11 +8,11 @@ import Button from '../Button/Button'
 const Menu = () => {
     return (
         <nav className="Menu">
-            <a href='/'>
+            <Link to='/'>
           <img src={OwO} alt="logo" />
-            </a>
+            </Link>
 
-            <Button as='a' className='ButtonLink' href='/'>
+            <Button as={Link} className='ButtonLink' to='/cadastro/pokemon'>
                 N o v o  - p i k a c h u
             </Button>
         </nav>
