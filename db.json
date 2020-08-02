@@ -1,16 +1,126 @@
 {
-  "categorias":[
+  "categorias": [
     {
       "id": 1,
-      "nome": "aaa",
-      "descrição": "aaa",
-      "cor":  "cbd1ff"
+      "titulo": "Pikachu vs Eevee",
+      "cor": "#008CBA",
+      "link_extra": {
+        "text": "Competição Pikachu vs Eeeve",
+        "url": "https://www.youtube.com/watch?v=aqaNqiD71zQ"
+      }
     },
     {
       "id": 2,
-      "nome": "aaa",
-      "descrição": "aaa",
-      "cor":  "cbd1ff"
+      "titulo": "Furret",
+      "cor": "#191970",
+      "link_extra": {
+        "text": "Melhor Pokemon",
+        "url": "https://www.youtube.com/watch?v=ih9zBLDr_ro"
+      }
+    },
+    {
+      "titulo": "aaaaaaaaaa",
+      "descricao": "aaaaaaaaaaaaaaaa",
+      "cor": "",
+      "id": 3
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Pikachu vs Eevee - 1",
+      "url": "https://www.youtube.com/watch?v=9pjottOw5Ik"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Pikachu vs Eevee - 2",
+      "url": "https://www.youtube.com/watch?v=TZXNf2-NuzE"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Pikachu vs Eevee - 3",
+      "url": "https://www.youtube.com/watch?v=0V1qoXJkPcw"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Pikachu vs Eevee - 4",
+      "url": "https://www.youtube.com/watch?v=mBGIkxDDQ70"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Pikachu vs Eevee - 5",
+      "url": "https://www.youtube.com/watch?v=VAY8Wt9pBkM"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Pikachu vs Eevee - 6",
+      "url": "https://www.youtube.com/watch?v=MmsWODpXFi8"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Pikachu vs Eevee - 7",
+      "url": "https://www.youtube.com/watch?v=2_ZHE_Z_8cA"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Pikachu vs Eevee - 8",
+      "url": "https://www.youtube.com/watch?v=0VD8xcKEkTI"
+    },
+    {
+      "id": 1,
+      "categoriaId": 2,
+      "titulo": "Furret no mundo",
+      "url": "https://www.youtube.com/watch?v=RVdZs8Vh0O0"
+    },
+    {
+      "id": 2,
+      "categoriaId": 2,
+      "titulo": "Furret pt-br",
+      "url": "https://www.youtube.com/watch?v=6wa_dlmTFpY"
+    },
+    {
+      "id": 3,
+      "categoriaId": 2,
+      "titulo": "Furret corona vírus",
+      "url": "https://www.youtube.com/watch?v=CPpYKsZt84Y"
+    },
+    {
+      "id": 4,
+      "categoriaId": 2,
+      "titulo": "Furret no espaço",
+      "url": "https://www.youtube.com/watch?v=a4cEHJdxmmk"
+    },
+    {
+      "id": 5,
+      "categoriaId": 2,
+      "titulo": "Furret song",
+      "url": "https://www.youtube.com/watch?v=-wTDsCplARY"
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=NKIWUqgIjq0",
+      "categoriaId": 2,
+      "id": 9
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=NKIWUqgIjq0",
+      "categoriaId": 1,
+      "id": 10
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=NKIWUqgIjq0",
+      "categoriaId": 1,
+      "id": 11
     }
   ]
 }

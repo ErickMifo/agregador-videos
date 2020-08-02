@@ -1,26 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
-import cadastroPokemon from './pages/cadastro/Pokemon/Pokemon';
-import cadastroCategoria from './pages/cadastro/Categoria/Categoria';
-import {
-  BrowserRouter,
-  Switch,
-  Route
-} from "react-router-dom";
+import CadastroPokemon from './pages/cadastro/Pokemon/Pokemon';
+import CadastroCategoria from './pages/cadastro/Categoria/Categoria';
 
-
+const Pagina404 = () => (<div>Página 404</div>);
 
 ReactDOM.render(
   <BrowserRouter>
-  <Switch>
-    <Route exact path='/' component={Home} />
-    <Route path='/cadastro/pokemon' component={cadastroPokemon} />
-    <Route path='/cadastro/categoria' component={cadastroCategoria} />
-    <Route component={() => (<h1> pagina 404 </h1>)} />
-  </Switch>
+    <Switch>
+      <Route path="/" component={Home} exact />
+      <Route path="/cadastro/pokemon" component={CadastroPokemon} />
+      <Route path="/cadastro/categoria" component={CadastroCategoria} />
+      <Route component={Pagina404} />
+    </Switch>
   </BrowserRouter>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
-
